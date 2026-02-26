@@ -2,7 +2,7 @@
 
 ## Champollion Deckを使った翻訳
 
-選択した文章を2026年2月に公開されたChampollion Deckを使って翻訳します。
+選択した文章を2026年2月に公開されたChampollion Deckを使って翻訳します。[champolliom-deck](https://github.com/ttrace/champollion-deck)に記載されているAutomator用のスクリプトを実行するようにしてあります。
 
 ### 準備
 
