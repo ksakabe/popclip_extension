@@ -15,6 +15,10 @@
 
 ファイルChampollionDeck.popclipextzをダウンロードし、ダブルクリックするとpopclipに組み込まれます。
 
+### 追記
+
+Champollion Deck作者様から頂いたアイコンを組み込みました。(2026/02/27)
+
 ## 物書堂辞書用拡張
 
 選択した文字列を辞書 by 物書堂アプリで調べるPopClip拡張。
