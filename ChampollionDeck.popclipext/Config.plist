@@ -9,7 +9,7 @@
   <string>Champollion Deck</string>
 
   <key>Icon</key>
-  <string>symbol:text.quote</string>
+  <string>icon.png</string>
 
   <key>Shell Script File</key>
   <string>run.sh</string>
