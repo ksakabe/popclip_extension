@@ -14,7 +14,7 @@ $ brew install apfel
 
 # インストール
 
-このpopclip extensionをインストールするにはダウンロードしたファイルApfelTrans.popclipextzをダブルクリックし、表示されたダイログでき**Apfel日本語翻訳をインストールする**をクリックします。
+このpopclip extensionをインストールするにはダウンロードしたファイル[ApfelTrans.popclipextz](https://github.com/ksakabe/popclip_extension/releases/download/20260614/ApfelTrans.popclipextz)をダブルクリックし、表示されたダイログでき**Apfel日本語翻訳をインストールする**をクリックします。
 
 # 使い方
 
