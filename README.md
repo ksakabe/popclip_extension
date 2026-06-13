@@ -12,7 +12,7 @@ brew install apfel
 
 ### インストール
 
-ファイルApfelTrans.popclipextzをダウンロードしてダブルクリックしてインストールします。
+ファイル[ApfelTrans.popclipextz](https://github.com/ksakabe/popclip_extension/releases/download/20260614/ApfelTrans.popclipextz)をダウンロードしてダブルクリックしてインストールします。
 
 ## Champollion Deckを使った翻訳(2026/02/27)
 
