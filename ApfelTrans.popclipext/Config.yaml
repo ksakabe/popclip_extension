@@ -1,0 +1,14 @@
+# PopClip Extension
+# macOSのapple-foundationmodelを利用した翻訳
+name: Apfel日本語翻訳
+identifier: com.example.popclip.extension.apfel-japanese-translate
+description: Apfelを使った日本語への翻訳
+popclip version: 4151
+requirements: [text]
+after: show-status
+interpreter: /bin/zsh
+icon: 🇯🇵
+action:
+  title: 日本語に翻訳
+  shell script file: ./run.sh
+
