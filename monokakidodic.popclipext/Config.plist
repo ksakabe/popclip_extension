@@ -1,37 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Actions</key>
-	<array>
-		<dict>
-			<key>Image File</key>
-			<string>mono.png</string>
-			<key>Service Name</key>
-			<string>Look Up in Dictionaries</string>
-			<key>Title</key>
-			<string>Dictionaries by Monokakido</string>
-		</dict>
-	</array>
-	<key>Extension Identifier</key>
-	<string>com.k-sakabe.extension.monokaki</string>
-	<key>Extension Name</key>
-	<dict>
-	  <key>en</key>
-	  <string>Monokakido dictionaries</string>
-	  <key>ja</key>
-	  <string>物書堂辞書</string>
-	</dict>
-	<key>Required Software Version</key>
-	<real>1459</real>
-	<key>Credits</key>
-	<array>
-	  <dict>
-	    <key>Name</key>
-	    <string>Kazuhisa Sakabe</string>
-	    <key>Link</key>
-	    <string>https://blog.k-sakabe.com/</string>
-	  </dict>
-	</array>
+
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>Image File</key>
+            <string>mono.png</string>
+
+            <key>Service Name</key>
+            <string>Look Up in Dictionaries</string>
+
+            <key>Title</key>
+            <string>Dictionaries by Monokakido</string>
+
+            <!--
+                単語として扱える文字列の場合だけ表示する。
+
+                条件:
+                ・1〜30文字
+                ・空白、改行を含まない
+                ・句読点を含まない
+                ・日本語、英字、数字、長音、ハイフン、
+                  アポストロフィーを許可
+            -->
+            <key>Regular Expression</key>
+            <string>^[\p{L}\p{M}\p{N}ーｰ\-'\u2019]{1,30}$</string>
+
+            <key>Requirements</key>
+            <array>
+                <string>copy</string>
+            </array>
+        </dict>
+    </array>
+
+    <key>Extension Identifier</key>
+    <string>com.k-sakabe.extension.monokaki</string>
+
+    <key>Extension Name</key>
+    <dict>
+        <key>en</key>
+        <string>Monokakido dictionaries</string>
+        <key>ja</key>
+        <string>物書堂辞書</string>
+    </dict>
+
+    <key>Required Software Version</key>
+    <real>1459</real>
+
+    <key>Credits</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>Kazuhisa Sakabe</string>
+            <key>Link</key>
+            <string>https://blog.k-sakabe.com/</string>
+        </dict>
+    </array>
+
 </dict>
 </plist>
